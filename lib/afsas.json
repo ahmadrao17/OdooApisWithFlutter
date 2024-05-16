@@ -1,0 +1,70 @@
+{
+    "user": [
+        {
+            "id": 61,
+            "name": "Ahmad",
+            "login": "Ahmad@ss.com",
+            "email": "Ahmad@ss.com"
+        },
+        {
+            "id": 2,
+            "name": "Cashier",
+            "login": "cashier@bolt.com",
+            "email": "cashier@bolt.com"
+        },
+        {
+            "id": 7,
+            "name": "Joel Willis",
+            "login": "portal",
+            "email": "joel.willis63@example.com"
+        },
+        {
+            "id": 6,
+            "name": "KDS User",
+            "login": "kds@bolt.com",
+            "email": "kds@bolt.com"
+        },
+        {
+            "id": 11,
+            "name": "Mobile Admin",
+            "login": "mobileadmin@gmail.com",
+            "email": "mobileadmin@gmail.com"
+        },
+        {
+            "id": 29,
+            "name": "New User",
+            "login": "newuser@example.com",
+            "email": false
+        },
+        {
+            "id": 12,
+            "name": "Order Taker",
+            "login": "taker@bolt.com",
+            "email": "taker@bolt.com"
+        },
+        {
+            "id": 15,
+            "name": "Owner",
+            "login": "owner@bolt.com",
+            "email": "owner@bolt.com"
+        },
+        {
+            "id": 13,
+            "name": "POS Manager",
+            "login": "manager@bolt.com",
+            "email": "manager@bolt.com"
+        },
+        {
+            "id": 44,
+            "name": "Pakistan",
+            "login": "pakistan@gmail.com",
+            "email": "pakistan@gmail.com"
+        },
+        {
+            "id": 14,
+            "name": "Purchase Manager",
+            "login": "purchasemanager@bolt.com",
+            "email": "purchasemanager@bolt.com"
+        }
+    ]
+}
