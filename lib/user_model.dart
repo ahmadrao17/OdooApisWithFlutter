@@ -1,12 +1,12 @@
-class users {
+class Users {
   int? id;
   String? name;
   String? login;
   String? email;
 
-  users({this.id, this.name, this.login, this.email});
+  Users({this.id, this.name, this.login, this.email});
 
-  users.fromJson(Map<String, dynamic> json) {
+  Users.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     name = json['name'];
     login = json['login'];
@@ -14,11 +14,11 @@ class users {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['id'] = this.id;
-    data['name'] = this.name;
-    data['login'] = this.login;
-    data['email'] = this.email;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['id'] = id;
+    data['name'] = name;
+    data['login'] = login;
+    data['email'] = email;
     return data;
   }
 }

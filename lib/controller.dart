@@ -7,7 +7,7 @@ class Controller extends GetxController {
   final Testservice testService = Testservice();
   final emailController = TextEditingController().obs;
   final nameController = TextEditingController().obs;
-  var user = <users>[].obs;
+  var user = <Users>[].obs;
   RxBool loading = true.obs;
   RxString errorMessage = ''.obs;
   dynamic result;
@@ -20,15 +20,12 @@ class Controller extends GetxController {
       }
       result = await testService.fetchdata();
       errorMessage.value = '';
-      for (var element in result) {
-        user.add(users.fromJson(element));
-      }
-      // user.value.addAll(result);
-      // user = result.foreach((v) {
-      //   user.add(users.fromJson(v));
-      //   print(v['id']);
-      // });
-      // user.value = result.map((e) => users.fromJson(e)).toList();
+      List<dynamic> parsedList = result;
+      // for (var element in result) {
+      //   user.add(Users.fromJson(element));
+      // }
+      user.value = parsedList.map((e) => Users.fromJson(e)).toList();
+      //  ;
     } catch (e) {
       errorMessage.value = e.toString();
     } finally {

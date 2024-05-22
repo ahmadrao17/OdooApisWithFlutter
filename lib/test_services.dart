@@ -34,11 +34,11 @@ class Testservice {
       });
 
       print("Response received");
-      print("this is response $response");
+      // print("this is response $response");
 
       var parsedList = jsonEncode(response);
 
-      print("this is list $parsedList");
+      // print("this is list $parsedList");
 
       // if (parsedList.isNotEmpty) {
       //   parsedList.first["password"] = password;
@@ -46,7 +46,6 @@ class Testservice {
       // for (var element in result) {
       //   print(element);
       // }
-      // log(result.toString());
       // }
       //else {
       // result = {
